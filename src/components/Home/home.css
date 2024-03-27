@@ -1,0 +1,47 @@
+.container {
+  height: 100vh;
+  padding: 5rem;
+  box-sizing: border-box;
+}
+
+.brand > svg {
+  font-size: 3rem;
+  color: white;
+  transition: color 0.5s;
+}
+.brand > svg:hover {
+  color: #023e8a;
+}
+
+.container-2 {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container-2 video {
+  /* border: 1px solid black; */
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+    rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+  width: 60%;
+  border-radius: 5px;
+  outline: none;
+}
+
+@media screen and (max-width: 600px) {
+  .container-2 {
+    height: unset;
+  }
+  .container-2 video {
+    width: 100%;
+  }
+}
+
+.course {
+  margin-bottom: 1rem;
+  transition: all 0.5s;
+}
+.course:hover {
+  transform: translateY(-10px);
+}
