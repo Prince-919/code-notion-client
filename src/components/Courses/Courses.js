@@ -24,9 +24,10 @@ const Courses = () => {
   );
 
   const categories = [
-    'Web Development',
-    'App Development',
-    'Data Structure & Algorithm',
+    'Blockchain',
+    'NFT Fundamentals',
+    'Ethereum',
+    'Public blockchain',
   ];
 
   const handleAddToPlaylist = async courseId => {

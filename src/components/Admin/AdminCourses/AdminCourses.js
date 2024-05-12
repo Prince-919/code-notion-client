@@ -78,14 +78,14 @@ const AdminCourses = () => {
     <Grid minH={'100vh'} templateColumns={['1fr', '5fr 1fr']}>
       <Box p={['0', '8']} overflowX={'auto'}>
         <Heading
-          children="All Courses"
+          children="All NFTs"
           textTransform={'uppercase'}
           my={'8'}
           textAlign={['center', 'left']}
         />
         <TableContainer w={['100vw', 'full']}>
           <Table variant={'simple'} size={'lg'}>
-            <TableCaption>All available courses in the database</TableCaption>
+            <TableCaption>All available NFTs in the database</TableCaption>
             <Thead>
               <Tr>
                 <Th>Id</Th>

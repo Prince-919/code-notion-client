@@ -25,13 +25,13 @@ const Sidebar = () => {
       <LinkButton
         url={'create-course'}
         Icon={RiAddCircleFill}
-        text={'Create Course'}
+        text={'Create NFT'}
         active={location.pathname === '/admin/create-course'}
       />
       <LinkButton
         url={'courses'}
         Icon={RiEyeFill}
-        text={'Courses'}
+        text={'All NFTs'}
         active={location.pathname === '/admin/courses'}
       />
       <LinkButton

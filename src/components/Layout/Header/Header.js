@@ -45,19 +45,15 @@ const Header = ({ isAuthenticated = false, user }) => {
       <Drawer placement="left" isOpen={isOpen} onClose={onClose}>
         <DrawerOverlay />
         <DrawerContent>
-          <DrawerHeader borderBottomWidth="1px">Code Notion</DrawerHeader>
+          <DrawerHeader borderBottomWidth="1px">NTF Marketplace</DrawerHeader>
           <DrawerBody>
             <VStack alignItems={'flex-start'} spacing={'4'}>
               <LinkButton onClose={onClose} />
-              <LinkButton
-                onClose={onClose}
-                url="/courses"
-                title="All Courses"
-              />
+              <LinkButton onClose={onClose} url="/courses" title="All NFTs" />
               <LinkButton
                 onClose={onClose}
                 url="/request"
-                title="Request a Course"
+                title="Request a NFTs"
               />
               <LinkButton onClose={onClose} url="/contact" title="Contact Us" />
               <LinkButton onClose={onClose} url="/about" title="About" />

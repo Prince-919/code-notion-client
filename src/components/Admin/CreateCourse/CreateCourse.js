@@ -39,9 +39,10 @@ const CreateCourse = () => {
   const { loading, error, message } = useSelector(state => state.admin);
 
   const categories = [
-    'Web Development',
-    'App Development',
-    'Data Structure & Algorithm',
+    'Blockchain',
+    'NFT Fundamentals',
+    'Ethereum',
+    'Public blockchain',
   ];
 
   const handleChangeImage = e => {
@@ -80,7 +81,7 @@ const CreateCourse = () => {
       <Container py={'16'}>
         <form onSubmit={handleSubmit}>
           <Heading
-            children="Create Course"
+            children="Create NFT"
             textTransform={'uppercase'}
             my={'8'}
             textAlign={['center', 'left']}

@@ -30,12 +30,12 @@ const Home = () => {
             alignItems={['center', 'flex-end']}
             spacing={'2'}
           >
-            <Heading children="Explore Learning Online" size="xl" />
+            <Heading children="Explore NFT Marketplace" size="xl" />
             <Text
               fontSize="xl"
               fontFamily="cursive"
               textAlign={['center', 'left']}
-              children="Want to be a Mern Stack Expert?"
+              children="Get Started Buy & Sell"
             />
 
             <Link to="/courses">
