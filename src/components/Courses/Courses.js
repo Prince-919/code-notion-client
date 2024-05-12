@@ -48,7 +48,7 @@ const Courses = () => {
 
   return (
     <Container minH="95vh" maxW="container.lg" paddingY="8">
-      <Heading children="All Courses" m="8" />
+      <Heading children="All NFTs" m="8" />
       <Input
         value={keyword}
         onChange={e => setKeyword(e.target.value)}
